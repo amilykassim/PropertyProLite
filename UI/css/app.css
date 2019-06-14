@@ -36,3 +36,19 @@ body {
     margin-left: 120px;
     color: rgb(68, 68, 68); 
   }
+
+  .login-field-container {
+    padding-top: 130px;
+    margin-left: 60px;
+  }
+
+  .input-field {
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    height: 20px;
+    outline: none;
+  }
