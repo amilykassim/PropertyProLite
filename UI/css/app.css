@@ -174,3 +174,26 @@ body {
   .log-out button:focus {
     outline: none;
   }
+
+  .image.topbar {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    margin-right: 140px;
+    width: 43px;
+    height: 43px;
+    padding: 4px;
+    border: 1px solid #00df6f;
+    border-radius: 50%;
+  }
+
+  .image.topbar:hover {
+    width: 45px;
+    height: 45px;
+    padding: 0px;
+    cursor: pointer;
+    margin-top: 4px;
+    transition: 0.2s;
+    transform: scale(1.05, 1.05);
+    box-shadow: 2px 4px 8px 0px rgba(153, 153, 153, 0.5);
+  }
