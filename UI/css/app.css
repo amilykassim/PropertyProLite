@@ -515,3 +515,13 @@ body {
   color: white;
 }
 
+.footer .footer-content .footer-section h1 {
+  color: rgb(243, 243, 243);
+  font-family: "Great Vibes", cursive;
+  font-size: 20px;
+}
+
+.footer .footer-content .footer-section li {
+  margin: 10px;
+}
+
