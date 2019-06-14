@@ -215,3 +215,15 @@ body {
   margin-top: 14px;
   margin-left: 20px;
 }
+
+.search {
+  position: absolute;
+  width: 670px;
+  height: 40px;
+  top: 5px;
+  background: none;
+  outline: none;
+  margin-left: 16px;
+  font-size: 15px;
+  border: none;
+}
