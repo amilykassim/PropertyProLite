@@ -279,3 +279,26 @@ body {
 .first-pill-color {
   color: #FD297B;
 }
+
+.tablink {
+  background: none;
+  color: rgb(63, 63, 63);
+  float: left;
+  border: 1px solid rgb(255, 3, 100);
+  outline: none;
+  border-radius: 0 0 10px 10px;
+  margin-top: 100px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 13%;
+  height: 35px;
+  font-family: "Great Vibes", cursive;
+}
+
+.tablink:hover {
+  background-color: #FD297B;
+  color: white;
+  transition: 0.4s;
+  transform: scale(0.9, 0.9);
+}
