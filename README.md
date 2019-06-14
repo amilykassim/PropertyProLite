@@ -1,0 +1,1 @@
+This is a platform of selling and buying properties accross the world.
