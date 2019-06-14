@@ -256,3 +256,26 @@ body {
 .first-background-color {
   background: linear-gradient(to right, #FD297B, #FF5864);
 }
+
+.pill {
+  display: inline-block;
+  font-size: 0.75rem;
+  line-height: 0.6rem;
+  padding: 5px;
+  margin-left: 16px;
+  margin-top: 16px;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  background-color: white;
+  font-weight: 600;
+  box-shadow: 4px 6px 8px 0px rgba(46, 61, 73, 0.2);
+  position: absolute;
+  color: black;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+}
+
+.first-pill-color {
+  color: #FD297B;
+}
