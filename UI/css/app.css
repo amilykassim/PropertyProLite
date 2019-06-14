@@ -139,3 +139,38 @@ body {
     color: white;
     border-radius: 50px 50px 0 0;
   }
+
+  .log-out {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    margin-right: 10px;
+  }
+  
+  .log-out button {
+    width: inherit;
+    height: inherit;
+    background: white;
+    color: black;
+    border: 0;
+    border-radius: inherit;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+  }
+
+  .log-out button:hover {
+    color: white;
+    background: #FD297B;
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+    transition: 0.5s;
+    box-shadow: 2px 4px 8px 0px rgba(153, 153, 153, 0.5);
+  }
+  .log-out button:focus {
+    outline: none;
+  }
