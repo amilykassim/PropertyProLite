@@ -92,3 +92,50 @@ body {
     border-radius: 6px;
     margin-left: 10px;
   }
+
+  .title-first {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 19px;
+    color: #d54d7b;
+    font-family: "Great Vibes", cursive;
+    font-size: 20px;
+    /* line-height: 30px;  */
+    font-weight: normal;
+    text-shadow: 0 1px 1px #fff;
+  }
+  
+  .title-second {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 121px;
+    color: white;
+    font-family: "Great Vibes", cursive;
+    font-size: 18px;
+    /* line-height: 30px;  */
+    font-weight: normal;
+    text-shadow: 0 1px 1px #fff;
+  }
+  
+  .title-third {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 117px;
+    color: white;
+    font-family: "Great Vibes", cursive;
+    font-size: 20px;
+    /* line-height: 30px;  */
+    font-weight: normal;
+    text-shadow: 0 1px 1px #fff;
+  }
+  
+  .title-ball {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 110px;
+    background: #FF5864;
+    color: white;
+    border-radius: 50px 50px 0 0;
+  }
