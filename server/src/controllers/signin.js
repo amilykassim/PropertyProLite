@@ -26,7 +26,7 @@ const signin = async (req, res) => {
   const token = generateAuthToken(user);
   user.token = token;
 
-
+  res.header('x-auth-token', token).send(results(SUCCESS, user));
 };
 
 export default signin;
