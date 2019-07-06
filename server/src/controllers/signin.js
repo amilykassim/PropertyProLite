@@ -23,6 +23,9 @@ const signin = async (req, res) => {
   const isValid = await bcrypt.compare(req.body.password, user.password);
   if (!isValid) return res.status(400).send(results(ERROR, 'Invalid password'));
 
+  const token = generateAuthToken(user);
+  user.token = token;
+
  
 };
 
