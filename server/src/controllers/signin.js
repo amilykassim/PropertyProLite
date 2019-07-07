@@ -20,6 +20,9 @@ const signin = async (req, res) => {
   const user = users.find(user => user.email === req.body.email);
   if (!user) return res.status(400).send(results(ERROR, 'Invalid email'));
 
+  const isValid = await bcrypt.compare(req.body.password, user.password);
+  if (!isValid) return res.status(400).send(results(ERROR, 'Invalid password'));
+
  
 };
 
