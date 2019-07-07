@@ -37,7 +37,11 @@ export const getPropertyById = (req, res) => {
   const property = properties.find(p => p.id === parseInt(req.params.id, 10));
   if (!property) return res.status(404).send(results(404, 'Property with the given id does not exists'));
 
-  
+  const { email, phoneNumber } = users.find(user => user.id === property.owner);
+  property.ownerEmail = email;
+  property.ownerPhoneNumber = phoneNumber;
+
+  return res.send(results(200, property));
 };
 
 export const postProperty = async (req, res) => {
