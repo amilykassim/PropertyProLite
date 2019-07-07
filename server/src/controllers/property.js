@@ -7,5 +7,10 @@ import cloudinary from '../startup/cloudinary';
 
 
 export const postProperty = async (req, res) => {
-  res.send('it is really working brozzay');
+  
+
+  const { error } = validate(req);
+  if (error) return res.status(400).send(results(ERROR, error.details[0].message));
+
+  
 };
