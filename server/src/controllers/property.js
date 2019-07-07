@@ -12,5 +12,12 @@ export const postProperty = async (req, res) => {
   const { error } = validate(req);
   if (error) return res.status(400).send(results(ERROR, error.details[0].message));
 
-  
+  const property = _.pick(req.body, ['price', 'state', 'city', 'address', 'type', 'image_url']);
+  property.id = properties.length + 1;
+  property.owner = req.user.id;
+  property.status = 'available';
+  property.created_on = new Date().toLocaleString();
+
+  properties.push(property);
+
 };
