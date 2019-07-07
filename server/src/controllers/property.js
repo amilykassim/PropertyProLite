@@ -25,4 +25,5 @@ export const postProperty = async (req, res) => {
 
   properties.push(property);
 
+  res.send(results(SUCCESS, property));
 };
