@@ -7,6 +7,9 @@ import routes from './startup/routes';
 const app = express();
 logging();
 config();
+
+console.log('the secret message key: ', process.env.SECRET_MESSAGE);
+
 routes(app);
 
 const port = process.env.PORT || 3000;

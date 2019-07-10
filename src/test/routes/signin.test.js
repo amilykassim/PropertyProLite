@@ -56,7 +56,8 @@ describe('auth/signin', () => {
 
       const res = await exec();
 
-      const decoded = jwt.verify(res.body.data.token, config.get('jwtPrivateKey'));
+      // const decoded = jwt.verify(res.body.data.token, config.get('jwtPrivateKey'));
+      const decoded = jwt.verify(res.body.data.token, process.env.JWT_PRIVATE_KEY);
 
       expect(res.status).to.equal(200);
       expect(decoded).to.have.property('isAdmin');
