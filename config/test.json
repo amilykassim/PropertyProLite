@@ -1,0 +1,6 @@
+{
+    "jwtPrivateKey": "1234",
+    "cloud_name": "fakename",
+    "api_key": "fakeKey",
+    "api_secret": "fakeSecret"
+}
