@@ -18,6 +18,5 @@ if(process.env.NODE_ENV === 'production') {
 }
 
 console.log('the running environment is : ', process.env.NODE_ENV);
-
 export { pool };
 
